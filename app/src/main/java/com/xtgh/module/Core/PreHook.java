@@ -15,9 +15,9 @@ public class PreHook {
         else if (versionCode.equals(Versions.T827))
             hooks.T827_P94();
         else if (versionCode.equals(Versions.T812))
-            hooks.T812_P91();
+            hooks.T812_P93();
         else if (versionCode.equals(Versions.T800))
-            hooks.T800_P912_T800_P92();
+            hooks.T800_P921_T800_P92();
         else if (versionCode.equals(Versions.T793) || versionCode.equals(Versions.T791))
             hooks.T793_P912_T793_P911_T791_P91();
         else if (versionCode.equals(Versions.T782))

@@ -13,17 +13,26 @@ public class Hooks {
 
     public void T827_P94() {
         String className = "org.telegram.tgnet.ConnectionsManager";
+        String chatActivity = "org.telegram.ui.rw1";
+        String addSponsoredMessages = "ra";
         universalNativeHook(className);
+        TelegramHooks.removeSponsoredMessages(classLoader, chatActivity, addSponsoredMessages);
     }
 
-    public void T812_P91() {
+    public void T812_P93() {
         String className = "org.telegram.messenger.eh0";
+        String chatActivity = "org.telegram.ui.jw1";
+        String addSponsoredMessages = "la";
         universalHook(className);
+        TelegramHooks.removeSponsoredMessages(classLoader, chatActivity, addSponsoredMessages);
     }
 
-    public void T800_P912_T800_P92() {
+    public void T800_P921_T800_P92() {
         String className = "org.telegram.messenger.og0";
+        String chatActivity = "org.telegram.ui.wv1";
+        String addSponsoredMessages = "M9";
         universalHook(className);
+        TelegramHooks.removeSponsoredMessages(classLoader, chatActivity, addSponsoredMessages);
     }
 
     public void T793_P912_T793_P911_T791_P91() {
