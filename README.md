@@ -16,7 +16,7 @@ TGH Version | Support
 ------ | --------
 T7.6.0-P8.8 |  Yes ✅
 ... | ...
-T8.2.7-P9.4 |  Yes ✅
+T8.3.1-P9.5 |  Yes ✅
 
 > Android 4.1 and above.
 
@@ -41,7 +41,7 @@ adb install xTGH.apk
 
 4. Reboot the device and enjoy.
 
-## No Root Access ?
+## No Root Access?
 
 - Use [VirtualXposed](https://github.com/android-hacker/VirtualXposed) as a framework.
 - Download and install the modified version from [Glype](https://t.me/Glype) telegram channel.
