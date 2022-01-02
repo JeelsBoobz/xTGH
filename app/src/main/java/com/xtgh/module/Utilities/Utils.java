@@ -53,11 +53,12 @@ public class Utils {
     }
 
     private static boolean isMatchAnySupportedVersion(String version) {
-        return (version.equals(Versions.T831) || version.equals(Versions.T827) ||
-                version.equals(Versions.T812) || version.equals(Versions.T800) ||
-                version.equals(Versions.T793) || version.equals(Versions.T791) ||
-                version.equals(Versions.T782) || version.equals(Versions.T781) ||
-                version.equals(Versions.T780) || version.equals(Versions.T773) ||
-                version.equals(Versions.T772) || version.equals(Versions.T760));
+        return (version.equals(Versions.T760) || version.equals(Versions.T772) ||
+                version.equals(Versions.T773) || version.equals(Versions.T780) ||
+                version.equals(Versions.T781) || version.equals(Versions.T782) ||
+                version.equals(Versions.T791) || version.equals(Versions.T793) ||
+                version.equals(Versions.T800) || version.equals(Versions.T812) ||
+                version.equals(Versions.T827) || version.equals(Versions.T831) ||
+                version.equals(Versions.T842));
     }
 }

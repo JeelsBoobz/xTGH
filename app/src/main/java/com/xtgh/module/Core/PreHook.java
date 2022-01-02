@@ -11,7 +11,8 @@ public class PreHook {
          * Version not detected.
          * Use latest available approach.
          * */
-        if (versionCode == null) hooks.T831_P95();
+        if (versionCode == null) hooks.T842_P96();
+        else if (versionCode.equals(Versions.T842)) hooks.T842_P96();
         else if (versionCode.equals(Versions.T831))
             hooks.T831_P95();
         else if (versionCode.equals(Versions.T827))
