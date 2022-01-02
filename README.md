@@ -16,7 +16,7 @@ TGH Version | Support
 ------ | --------
 T7.6.0-P8.8 |  Yes ✅
 ... | ...
-T8.3.1-P9.5 |  Yes ✅
+T8.4.2-P9.6 |  Yes ✅
 
 > Android 4.1 and above.
 
