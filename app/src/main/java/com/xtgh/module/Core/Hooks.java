@@ -11,6 +11,14 @@ public class Hooks {
         this.classLoader = classLoader;
     }
 
+    public void T843_P97() {
+        String className = "org.telegram.tgnet.ConnectionsManager";
+        String chatActivity = "org.telegram.ui.wh";
+        String addSponsoredMessages = "Re";
+        universalNativeHook(className);
+        TelegramHooks.removeSponsoredMessages(classLoader, chatActivity, addSponsoredMessages);
+    }
+
     public void T842_P96() {
         String className = "org.telegram.tgnet.ConnectionsManager";
         String chatActivity = "org.telegram.ui.k02";

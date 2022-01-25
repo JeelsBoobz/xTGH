@@ -1,6 +1,7 @@
 package com.xtgh.module.Utilities;
 
 public class Versions {
+    public static final String T843 = "8.4.3";
     public static final String T842 = "8.4.2";
     public static final String T831 = "8.3.1";
     public static final String T827 = "8.2.7";
