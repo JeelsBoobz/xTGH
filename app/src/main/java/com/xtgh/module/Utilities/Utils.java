@@ -59,6 +59,7 @@ public class Utils {
                 version.equals(Versions.T791) || version.equals(Versions.T793) ||
                 version.equals(Versions.T800) || version.equals(Versions.T812) ||
                 version.equals(Versions.T827) || version.equals(Versions.T831) ||
-                version.equals(Versions.T842) || version.equals(Versions.T843));
+                version.equals(Versions.T842) || version.equals(Versions.T843) ||
+                version.equals(Versions.T965));
     }
 }
