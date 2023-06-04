@@ -14,7 +14,7 @@ public class Hooks {
         String className = "org.telegram.tgnet.ConnectionsManager";
         universalNativeHook(className);
         // Unlock Premium
-        TelegramHooks.setFalse(classLoader, "org.telegram.messenger.cw0", "B");
+        TelegramHooks.setTrue(classLoader, "org.telegram.messenger.cw0", "B");
         // Anti Forward Restriction
         TelegramHooks.setFalse(classLoader, "org.telegram.messenger.ha0", "P9");
     }
